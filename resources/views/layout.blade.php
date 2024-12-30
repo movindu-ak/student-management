@@ -198,7 +198,7 @@
 
 <div class="header1">
     <nav class="navbar navbar-expand-lg navbar-light bg-light test header1">
-        <a class="navbar-brand" href="#">Student Management System</a>
+        <a class="navbar-brand" href="#">Notice Management System</a>
         {{-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button> --}}

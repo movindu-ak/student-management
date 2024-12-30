@@ -7,7 +7,10 @@
     <style>
         /* Background Styling */
         body {
-            background-color: #f9fafb;
+            background-image: url('https://img.freepik.com/free-photo/front-view-cute-young-girl-boy-posing-together_23-2148465743.jpg?t=st=1734549304~exp=1734552904~hmac=7cc7a223a0309ce6dc2e06bbddbc2225a04d58b4906300b07c82b1a86bae4202&w=996');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             font-family: 'Arial', sans-serif;
         }
 
@@ -16,7 +19,7 @@
             max-width: 400px;
             margin: 0 auto;
             padding: 2rem;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9); /* Slight transparency */
             border-radius: 8px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
@@ -88,7 +91,7 @@
     </style>
 </head>
 <body>
-    <div class="min-h-screen flex items-center justify-center bg-gray-100 py-6">
+    <div class="min-h-screen flex items-center justify-center py-6">
         <div class="register-container">
             <h2>Register</h2>
             <form method="POST" action="{{ route('register') }}">
